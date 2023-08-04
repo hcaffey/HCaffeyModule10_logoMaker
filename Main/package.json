@@ -1,0 +1,21 @@
+{
+  "name": "list-geni",
+  "version": "1.0.0",
+  "description": "A command line logo maker. Follow prompts to generate a logo.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.6",
+    "svg2img": "^1.0.0-beta.2"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
